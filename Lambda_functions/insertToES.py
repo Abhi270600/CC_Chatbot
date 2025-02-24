@@ -18,10 +18,9 @@ table = dynamodb.Table(DYNAMODB_TABLE)
 
 # List of cuisines to fetch
 CUISINES = ["Indian", "Chinese", "Mexican", "Italian", "Thai"]
-NUM_PER_CUISINE = 30  # Number of restaurants per cuisine
 
 
-def fetch_restaurants(cuisine, num_records):
+def fetch_restaurants(cuisine):
     """Fetch restaurants of a specific cuisine from DynamoDB."""
     response = table.scan(
         FilterExpression="Cuisine = :c",
@@ -31,7 +30,7 @@ def fetch_restaurants(cuisine, num_records):
     # Shuffle to get random records (if more than needed)
     items = response.get("Items", [])
     random.shuffle(items)
-    return items[:num_records]  # Get the first `num_records` items
+    return items  # Get the first `num_records` items
 
 
 def push_to_opensearch(restaurants):
@@ -63,7 +62,7 @@ def lambda_handler(event, context):
 
     # Fetch restaurants for each cuisine
     for cuisine in CUISINES:
-        restaurants = fetch_restaurants(cuisine, NUM_PER_CUISINE)
+        restaurants = fetch_restaurants(cuisine)
         all_restaurants.extend(restaurants)
 
     # Push the collected restaurants to OpenSearch
