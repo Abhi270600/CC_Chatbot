@@ -1,0 +1,2102 @@
+[
+    {
+        "BusinessID": "izRJeBfDQYJmd6ibIQ6Mfg",
+        "Name": "Mughlai Indian Cuisine",
+        "Address": "1724 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78002,
+            "lon": -73.94978
+        },
+        "NumReviews": 666,
+        "Rating": 4.3,
+        "ZipCode": "10128",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "iYh7mB7PDd5ZvZZ4lFPF1w",
+        "Name": "Anand Indian Cuisine",
+        "Address": "304 E 78th St",
+        "Coordinates": {
+            "lat": 40.77232,
+            "lon": -73.955241
+        },
+        "NumReviews": 179,
+        "Rating": 4.1,
+        "ZipCode": "10075",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "zVLG_O3AQnvQ53PSJ5mTMA",
+        "Name": "Om",
+        "Address": "1531 York Ave",
+        "Coordinates": {
+            "lat": 40.7726799,
+            "lon": -73.9497983
+        },
+        "NumReviews": 568,
+        "Rating": 4.0,
+        "ZipCode": "10028",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "9pMhRYYgV7E9L7pzECtJKA",
+        "Name": "The Drunken Munkey - UES",
+        "Address": "338 E 92nd St",
+        "Coordinates": {
+            "lat": 40.78098,
+            "lon": -73.94751
+        },
+        "NumReviews": 1463,
+        "Rating": 4.3,
+        "ZipCode": "10128",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "jb-Fe1cC3ZARF9xyFvJQYQ",
+        "Name": "Tandoor Oven",
+        "Address": "175 E 83rd St",
+        "Coordinates": {
+            "lat": 40.77715077114621,
+            "lon": -73.9556964
+        },
+        "NumReviews": 223,
+        "Rating": 3.8,
+        "ZipCode": "10028",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "VC1udoc_sbHdFaBr0-bMsA",
+        "Name": "Bombay Chowk",
+        "Address": "1378 1st Ave",
+        "Coordinates": {
+            "lat": 40.76880997334686,
+            "lon": -73.95508736811863
+        },
+        "NumReviews": 202,
+        "Rating": 4.0,
+        "ZipCode": "10021",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "-mxZcmP2TtgIMmfNmxWMQA",
+        "Name": "Javitri",
+        "Address": "132 E 61st St",
+        "Coordinates": {
+            "lat": 40.76358346058178,
+            "lon": -73.96760314428282
+        },
+        "NumReviews": 25,
+        "Rating": 4.6,
+        "ZipCode": "10065",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "lxNU-aBq0yPwBDx-i89ahA",
+        "Name": "Seva Indian Cuisine",
+        "Address": "34-11 30th Ave",
+        "Coordinates": {
+            "lat": 40.76571,
+            "lon": -73.91839
+        },
+        "NumReviews": 1513,
+        "Rating": 4.4,
+        "ZipCode": "11103",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "7USPKYeaAfxl0Ch9j_1l7A",
+        "Name": "Moti Mahal Delux",
+        "Address": "1149 1st Ave",
+        "Coordinates": {
+            "lat": 40.76213,
+            "lon": -73.9605
+        },
+        "NumReviews": 605,
+        "Rating": 3.8,
+        "ZipCode": "10065",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "50eKjWOB-H9iuo1ocACOaQ",
+        "Name": "Lungi",
+        "Address": "1136 1st Ave",
+        "Coordinates": {
+            "lat": 40.7616660604253,
+            "lon": -73.9601389691234
+        },
+        "NumReviews": 307,
+        "Rating": 4.3,
+        "ZipCode": "10065",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "x0k5kFArHLijdY8-NEQ7Xg",
+        "Name": "Bengal Tiger ",
+        "Address": "234W 56th St",
+        "Coordinates": {
+            "lat": 40.765673188349595,
+            "lon": -73.98265750332172
+        },
+        "NumReviews": 2479,
+        "Rating": 4.5,
+        "ZipCode": "10019",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "gPattIGuKxCgeNjxfEMDjg",
+        "Name": "Punjabi Junction Of 87th",
+        "Address": "1665 1st Ave",
+        "Coordinates": {
+            "lat": 40.777471,
+            "lon": -73.949159
+        },
+        "NumReviews": 76,
+        "Rating": 4.8,
+        "ZipCode": "10028",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "3Lzq6WS7q0Cz9_RinS00OA",
+        "Name": "Mughlai Indian Cuisine",
+        "Address": "489 Columbus Ave",
+        "Coordinates": {
+            "lat": 40.78477804313809,
+            "lon": -73.97319038849837
+        },
+        "NumReviews": 30,
+        "Rating": 4.6,
+        "ZipCode": "10024",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "rzjwoNXH2tCEmA3wo6fy9w",
+        "Name": "India Palace",
+        "Address": "401 E 62nd St",
+        "Coordinates": {
+            "lat": 40.763200972497586,
+            "lon": -73.96042531491231
+        },
+        "NumReviews": 46,
+        "Rating": 3.9,
+        "ZipCode": "10065",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "QqrEF8_ZQCGi63cL10J5oA",
+        "Name": "Chola",
+        "Address": "232 E 58th St",
+        "Coordinates": {
+            "lat": 40.76026,
+            "lon": -73.96576
+        },
+        "NumReviews": 722,
+        "Rating": 4.0,
+        "ZipCode": "10022",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "XLEdQl5s1bO5Iu43W_c96Q",
+        "Name": "Muna",
+        "Address": "152 East 46th St",
+        "Coordinates": {
+            "lat": 40.753509,
+            "lon": -73.973515
+        },
+        "NumReviews": 121,
+        "Rating": 4.7,
+        "ZipCode": "10017",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "iLjrQvbUYPj6NLkalyau0w",
+        "Name": "Hyderabadi Zaiqa",
+        "Address": "366 W 52 St",
+        "Coordinates": {
+            "lat": 40.76439568665357,
+            "lon": -73.9876243
+        },
+        "NumReviews": 113,
+        "Rating": 4.4,
+        "ZipCode": "10019",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "3hlAeWgSKAnSQ1tg8k8D8g",
+        "Name": "Alachi Masala",
+        "Address": "488 Amsterdam Ave",
+        "Coordinates": {
+            "lat": 40.78616,
+            "lon": -73.97635
+        },
+        "NumReviews": 309,
+        "Rating": 3.9,
+        "ZipCode": "10024",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "u_CnSp9FieAuWqhvCn-A2A",
+        "Name": "Spice Mantra",
+        "Address": "1047 2nd Ave",
+        "Coordinates": {
+            "lat": 40.75825,
+            "lon": -73.96633
+        },
+        "NumReviews": 104,
+        "Rating": 4.7,
+        "ZipCode": "10022",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "hmNxdAbt0tiGm8_vPdXCSA",
+        "Name": "Afghan Kebab House",
+        "Address": "1448 First Ave",
+        "Coordinates": {
+            "lat": 40.769883,
+            "lon": -73.954133
+        },
+        "NumReviews": 237,
+        "Rating": 3.8,
+        "ZipCode": "10021",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "NhBUzlITbu3rdjm9UEfWsw",
+        "Name": "Raj's Indian Kitchen",
+        "Address": "42-12 28th St",
+        "Coordinates": {
+            "lat": 40.74956171352732,
+            "lon": -73.93954799532425
+        },
+        "NumReviews": 372,
+        "Rating": 4.0,
+        "ZipCode": "11101",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "ogEtpbCgxv38PyB3ebivqQ",
+        "Name": "Yaar Indian Restaurant",
+        "Address": "22-55 31st St",
+        "Coordinates": {
+            "lat": 40.774803026853,
+            "lon": -73.9120166023413
+        },
+        "NumReviews": 470,
+        "Rating": 4.5,
+        "ZipCode": "11105",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "1_pK5aQ47atF50oAKHADhA",
+        "Name": "Indian Accent",
+        "Address": "123 W 56th St",
+        "Coordinates": {
+            "lat": 40.7643344624229,
+            "lon": -73.9787312885132
+        },
+        "NumReviews": 794,
+        "Rating": 4.3,
+        "ZipCode": "10019",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "qTJvCBgticMA-opC6P6yzg",
+        "Name": "Rang",
+        "Address": "11-03 44th Ave",
+        "Coordinates": {
+            "lat": 40.7500749267213,
+            "lon": -73.94893907411615
+        },
+        "NumReviews": 32,
+        "Rating": 4.3,
+        "ZipCode": "11101",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "hfCU-GH8GP6vjAknXUyhKQ",
+        "Name": "Cardamom Indian cuisine",
+        "Address": "43-45 43rd St",
+        "Coordinates": {
+            "lat": 40.743889234185886,
+            "lon": -73.92121686092719
+        },
+        "NumReviews": 305,
+        "Rating": 4.5,
+        "ZipCode": "11104",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "IysZ64t48AedrhWfz3WJGQ",
+        "Name": "Cloves Indian Cuisine",
+        "Address": "66 Madison Ave",
+        "Coordinates": {
+            "lat": 40.74367,
+            "lon": -73.98612
+        },
+        "NumReviews": 116,
+        "Rating": 4.8,
+        "ZipCode": "10016",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "Gxlxu7Rug2tM_V7sS4x6fQ",
+        "Name": "Tadka Indian Cuisine",
+        "Address": "13-15 43rd Ave",
+        "Coordinates": {
+            "lat": 40.75096,
+            "lon": -73.94578
+        },
+        "NumReviews": 42,
+        "Rating": 4.0,
+        "ZipCode": "11101",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "FXDMFBM-rV2s5MHzA33d2g",
+        "Name": "Bombay Grill House",
+        "Address": "764 9th Ave",
+        "Coordinates": {
+            "lat": 40.76421,
+            "lon": -73.988101
+        },
+        "NumReviews": 348,
+        "Rating": 4.1,
+        "ZipCode": "10019",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "m5Whyz8O8jM4DrE808h71g",
+        "Name": "Darbar Grill",
+        "Address": "157 E 55th St",
+        "Coordinates": {
+            "lat": 40.759357,
+            "lon": -73.968826
+        },
+        "NumReviews": 658,
+        "Rating": 4.0,
+        "ZipCode": "10022",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.153736"
+    },
+    {
+        "BusinessID": "Ey45ZiAN1TSVmvfM6DVZqA",
+        "Name": "Persepolis",
+        "Address": "1407 2nd Ave",
+        "Coordinates": {
+            "lat": 40.76981122350626,
+            "lon": -73.95795838220823
+        },
+        "NumReviews": 545,
+        "Rating": 3.9,
+        "ZipCode": "10021",
+        "Cuisine": "Indian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.154736"
+    },
+    {
+        "BusinessID": "oowNI_aUmGEFa_VW8BFgRg",
+        "Name": "Tri Dim Shanghai",
+        "Address": "1378 3rd Ave",
+        "Coordinates": {
+            "lat": 40.773951,
+            "lon": -73.957927
+        },
+        "NumReviews": 587,
+        "Rating": 4.0,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "YDZX2bJ1IyV0lunBYqbb4w",
+        "Name": "New Chinatown  Asian Cuisine/ Bar",
+        "Address": "1650 3rd Ave",
+        "Coordinates": {
+            "lat": 40.782945,
+            "lon": -73.95132
+        },
+        "NumReviews": 139,
+        "Rating": 4.5,
+        "ZipCode": "10128",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "iXH9H75idkSB-Eudo5ABhg",
+        "Name": "Tang By Mr Sun",
+        "Address": "1442 3rd Ave",
+        "Coordinates": {
+            "lat": 40.77614,
+            "lon": -73.95616
+        },
+        "NumReviews": 101,
+        "Rating": 4.4,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "gJXNSJ9VXTuCFmp_Kl9TVQ",
+        "Name": "Shanghai",
+        "Address": "1388 2nd Ave",
+        "Coordinates": {
+            "lat": 40.768291,
+            "lon": -73.958381
+        },
+        "NumReviews": 154,
+        "Rating": 3.8,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "BPErPpKSNluwcjbKRgze3w",
+        "Name": "Xi'an Famous Foods",
+        "Address": "328 E 78th St",
+        "Coordinates": {
+            "lat": 40.77197,
+            "lon": -73.95452
+        },
+        "NumReviews": 713,
+        "Rating": 4.2,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "0vg2Z-HPwkyVVX613j2ysg",
+        "Name": "Peng's Noodle Folk",
+        "Address": "1016 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.7711335538802,
+            "lon": -73.9620354269869
+        },
+        "NumReviews": 595,
+        "Rating": 4.5,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "LNx49p5HYVc01rKnkfKkFg",
+        "Name": "Super Taste",
+        "Address": "1502 1st Ave",
+        "Coordinates": {
+            "lat": 40.771858,
+            "lon": -73.952783
+        },
+        "NumReviews": 63,
+        "Rating": 4.6,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "fbxOVzLvmIB13_5adb1hfQ",
+        "Name": "Our New Place",
+        "Address": "242 E 79th St",
+        "Coordinates": {
+            "lat": 40.77347,
+            "lon": -73.95576
+        },
+        "NumReviews": 43,
+        "Rating": 4.1,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "LT0yyLNM84EiJj9DL0rfHA",
+        "Name": "Hui Restaurant & Bar",
+        "Address": "314 E 70th St",
+        "Coordinates": {
+            "lat": 40.76701,
+            "lon": -73.95846
+        },
+        "NumReviews": 328,
+        "Rating": 4.3,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "REfubl3j3wXgJgG7KX4ETw",
+        "Name": "Dragon 88",
+        "Address": "1680 1st Ave",
+        "Coordinates": {
+            "lat": 40.7779391424127,
+            "lon": -73.94831307387246
+        },
+        "NumReviews": 14,
+        "Rating": 3.9,
+        "ZipCode": "10128",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "sfsjk1h50ooC2ioY7m48gw",
+        "Name": "Pig Heaven",
+        "Address": "1420 3rd Ave",
+        "Coordinates": {
+            "lat": 40.77544,
+            "lon": -73.95686
+        },
+        "NumReviews": 565,
+        "Rating": 3.8,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "GJZnf3B-ADjlCV1NXsHvGQ",
+        "Name": "Tang's Garden",
+        "Address": "1328 3rd Ave",
+        "Coordinates": {
+            "lat": 40.7722574,
+            "lon": -73.9589547
+        },
+        "NumReviews": 125,
+        "Rating": 3.2,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "RkcQl4uEJWblWf4xX8ssqQ",
+        "Name": "Wa Jeal Sichuan Chili House",
+        "Address": "1588 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77536,
+            "lon": -73.95317
+        },
+        "NumReviews": 477,
+        "Rating": 3.7,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "mDajKjZjRN4tVGEJFOgF9w",
+        "Name": "Wok 88",
+        "Address": "1570 3rd Ave",
+        "Coordinates": {
+            "lat": 40.78042,
+            "lon": -73.95322
+        },
+        "NumReviews": 369,
+        "Rating": 3.7,
+        "ZipCode": "10128",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "VG0XPr9jSrgd8p5WPD1HaQ",
+        "Name": "Ollies To Go",
+        "Address": "307 E 77th St",
+        "Coordinates": {
+            "lat": 40.771918,
+            "lon": -73.955451
+        },
+        "NumReviews": 127,
+        "Rating": 3.2,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "DIwe3i_-OkvfKAHrNDGtSw",
+        "Name": "Red Sorghum \u591c\u5bb4",
+        "Address": "28-03 Jackson Ave",
+        "Coordinates": {
+            "lat": 40.74868211533397,
+            "lon": -73.93911207384153
+        },
+        "NumReviews": 190,
+        "Rating": 4.3,
+        "ZipCode": "11101",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "XsXLVWr1UZWVhKThNvNiaA",
+        "Name": "Blue Willow \u591c\u6765\u6e58",
+        "Address": "40 W 56th St",
+        "Coordinates": {
+            "lat": 40.76292,
+            "lon": -73.976546
+        },
+        "NumReviews": 1350,
+        "Rating": 4.4,
+        "ZipCode": "10019",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "KBZQN540Xz6LbXLRVOMc0w",
+        "Name": "Hunan Delight",
+        "Address": "1467 York Ave",
+        "Coordinates": {
+            "lat": 40.770678,
+            "lon": -73.951296
+        },
+        "NumReviews": 217,
+        "Rating": 3.6,
+        "ZipCode": "10075",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "vGt6zzoqGitI_OCVg_ytpw",
+        "Name": "Miss Wonton",
+        "Address": "1409 York Ave",
+        "Coordinates": {
+            "lat": 40.7690455,
+            "lon": -73.95255532048616
+        },
+        "NumReviews": 35,
+        "Rating": 3.7,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "2fZhuDglZd7ezwTACqIs-w",
+        "Name": "Vanessa\u2019s Dumpling House",
+        "Address": "1623 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77689383926089,
+            "lon": -73.95270970510296
+        },
+        "NumReviews": 78,
+        "Rating": 3.8,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "7FeUdDizBscZueMDaKdjGQ",
+        "Name": "Ellie's Chinese Restaurant",
+        "Address": "1570 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77493,
+            "lon": -73.95366
+        },
+        "NumReviews": 28,
+        "Rating": 3.0,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "fFrQ4Hi5hKGjpxDpqyx-mQ",
+        "Name": "Han Dynasty - Long Island City",
+        "Address": "4504 Pearson St",
+        "Coordinates": {
+            "lat": 40.74581,
+            "lon": -73.94485
+        },
+        "NumReviews": 37,
+        "Rating": 4.1,
+        "ZipCode": "11101",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "2YYXbDTL9G6LyuNvZGCvyQ",
+        "Name": "Astoria Dragon and Phoenix",
+        "Address": "29-21 Astoria Blvd",
+        "Coordinates": {
+            "lat": 40.770487844385265,
+            "lon": -73.91895974878074
+        },
+        "NumReviews": 25,
+        "Rating": 4.2,
+        "ZipCode": "11102",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "kYJbGSjyXocbRrgMV-zExg",
+        "Name": "Six Happiness",
+        "Address": "1413 2nd Ave",
+        "Coordinates": {
+            "lat": 40.769994,
+            "lon": -73.957802
+        },
+        "NumReviews": 144,
+        "Rating": 3.0,
+        "ZipCode": "10021",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "Aux2Mp7bGnF3S6h60ab3iQ",
+        "Name": "Yummy City",
+        "Address": "1557 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.7879244458184,
+            "lon": -73.948986355818
+        },
+        "NumReviews": 63,
+        "Rating": 4.3,
+        "ZipCode": "10029",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "Yo6D3B8TP_xdN1yaoNc0Ww",
+        "Name": "Fresh Wok",
+        "Address": "1777 1st Ave",
+        "Coordinates": {
+            "lat": 40.7806125682347,
+            "lon": -73.94685203145268
+        },
+        "NumReviews": 49,
+        "Rating": 3.3,
+        "ZipCode": "10128",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "LU4mHDTgFxOuvuK1SFbJag",
+        "Name": "Asian 83",
+        "Address": "1605 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77626,
+            "lon": -73.953269
+        },
+        "NumReviews": 48,
+        "Rating": 3.2,
+        "ZipCode": "10028",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "U5dCWjAxrvLLMH1ErpGfvw",
+        "Name": "A-jiao",
+        "Address": "1817 2nd Ave",
+        "Coordinates": {
+            "lat": 40.783159,
+            "lon": -73.948244
+        },
+        "NumReviews": 165,
+        "Rating": 3.7,
+        "ZipCode": "10128",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "U8la2dyPP9qCEteA4FGi2w",
+        "Name": "Aves",
+        "Address": "102 W 86th St",
+        "Coordinates": {
+            "lat": 40.786280780827475,
+            "lon": -73.97266912034127
+        },
+        "NumReviews": 4,
+        "Rating": 4.8,
+        "ZipCode": "10024",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "ojbH3wnRu050hRhkmoxRiA",
+        "Name": "Han Dynasty",
+        "Address": "215 W 85th St",
+        "Coordinates": {
+            "lat": 40.7875329540021,
+            "lon": -73.97638356686477
+        },
+        "NumReviews": 762,
+        "Rating": 3.8,
+        "ZipCode": "10024",
+        "Cuisine": "Chinese",
+        "InsertedAtTimestamp": "2025-02-24 00:51:08.866142"
+    },
+    {
+        "BusinessID": "AFMskIEWMA-9mawqSFEuqg",
+        "Name": "Buena Onda",
+        "Address": "1446 1st Ave",
+        "Coordinates": {
+            "lat": 40.76992107323629,
+            "lon": -73.95424961681297
+        },
+        "NumReviews": 20,
+        "Rating": 4.5,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "kn9rgR4KlvyTTi-s76OIaQ",
+        "Name": "Toloache 82nd",
+        "Address": "166 E 82nd St",
+        "Coordinates": {
+            "lat": 40.776483,
+            "lon": -73.956708
+        },
+        "NumReviews": 542,
+        "Rating": 3.9,
+        "ZipCode": "10028",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "7bD22UAtH56ikWYslOSIQg",
+        "Name": "Calexico - Upper East Side",
+        "Address": "1491 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77259,
+            "lon": -73.95588
+        },
+        "NumReviews": 916,
+        "Rating": 3.8,
+        "ZipCode": "10075",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "6ezrABEThm48qv1qj8_FVw",
+        "Name": "Javelina",
+        "Address": "1395 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7694,
+            "lon": -73.95816
+        },
+        "NumReviews": 184,
+        "Rating": 3.9,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "SeI-nIE1Ab5U53mB_e-1KQ",
+        "Name": "Soledad",
+        "Address": "1825 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78336,
+            "lon": -73.94796
+        },
+        "NumReviews": 45,
+        "Rating": 4.7,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "a2BkT6uUKDpzhLalkksJsg",
+        "Name": "Tacombi",
+        "Address": "202 E 70th St",
+        "Coordinates": {
+            "lat": 40.768036983514506,
+            "lon": -73.96119122060036
+        },
+        "NumReviews": 209,
+        "Rating": 4.1,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "cy0vBvZu2Eb4XtRFCp8Seg",
+        "Name": "Conmigo",
+        "Address": "1685 1st Ave",
+        "Coordinates": {
+            "lat": 40.77793,
+            "lon": -73.94902
+        },
+        "NumReviews": 385,
+        "Rating": 3.9,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "vN1CYP0WNSPfdmZAstfdOg",
+        "Name": "Sabor A Mexico 2",
+        "Address": "233 E 77th St",
+        "Coordinates": {
+            "lat": 40.772556,
+            "lon": -73.957035
+        },
+        "NumReviews": 214,
+        "Rating": 3.3,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "2VdLKWG8e3bT7fTng4UNBg",
+        "Name": "Calabrije's Margaritas & Tacos",
+        "Address": "1619 York Ave",
+        "Coordinates": {
+            "lat": 40.77555277141703,
+            "lon": -73.9478079705522
+        },
+        "NumReviews": 39,
+        "Rating": 3.7,
+        "ZipCode": "10028",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "skN-mgnOezFQr9YNh5G5TQ",
+        "Name": "Lolita's Kitchen",
+        "Address": "1364 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.7824207446896,
+            "lon": -73.9534502033954
+        },
+        "NumReviews": 161,
+        "Rating": 3.9,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "0o0s6bUIuy0LTGNR3xYzzw",
+        "Name": "Dos Toros Taqueria",
+        "Address": "1115 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.77399,
+            "lon": -73.95939
+        },
+        "NumReviews": 418,
+        "Rating": 3.5,
+        "ZipCode": "10075",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "5S8ZK9XLdl4l645twbNYZQ",
+        "Name": "Boqueria",
+        "Address": "1460 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7715560371317,
+            "lon": -73.95615849872732
+        },
+        "NumReviews": 1018,
+        "Rating": 4.2,
+        "ZipCode": "10075",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "WE064Ln20S4MQVT1hETCCw",
+        "Name": "Canyon Road",
+        "Address": "1470 1st Ave",
+        "Coordinates": {
+            "lat": 40.770694,
+            "lon": -73.953774
+        },
+        "NumReviews": 324,
+        "Rating": 3.8,
+        "ZipCode": "10075",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "oNgT6-rh-2TOeAF16AxXVw",
+        "Name": "Tacos & Tequila",
+        "Address": "1742 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78075,
+            "lon": -73.94942
+        },
+        "NumReviews": 86,
+        "Rating": 3.9,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "foAYWheDCF9wUyKPuOGYow",
+        "Name": "M\u00f3le Mexican Bar & Grill - Upper East Side",
+        "Address": "1735 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78028876362655,
+            "lon": -73.95021843279108
+        },
+        "NumReviews": 454,
+        "Rating": 3.3,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "ePKsXWq7alN3Q1kQ6cKaUg",
+        "Name": "The Red Grill",
+        "Address": "1701 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77935,
+            "lon": -73.95089
+        },
+        "NumReviews": 93,
+        "Rating": 3.8,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "FeSZi6LBCcAIipoSua6dXg",
+        "Name": "La Esquina - UES",
+        "Address": "1402 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7693131667402,
+            "lon": -73.9577519273524
+        },
+        "NumReviews": 233,
+        "Rating": 3.4,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "HSGxP4jjOC0S3NtjITYt5w",
+        "Name": "Dos Toros Taqueria",
+        "Address": "1327 York Ave",
+        "Coordinates": {
+            "lat": 40.76612,
+            "lon": -73.9547599
+        },
+        "NumReviews": 4,
+        "Rating": 4.5,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "TgoYhgbPCYhLBNtpue3QHg",
+        "Name": "Maya",
+        "Address": "1191 1st Ave",
+        "Coordinates": {
+            "lat": 40.7631741,
+            "lon": -73.9597236
+        },
+        "NumReviews": 1133,
+        "Rating": 3.7,
+        "ZipCode": "10065",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "qr24KgWcZGUhKZIPyVMsNw",
+        "Name": "Maz Mezcal",
+        "Address": "316 E 86th St",
+        "Coordinates": {
+            "lat": 40.77741,
+            "lon": -73.95103
+        },
+        "NumReviews": 458,
+        "Rating": 3.4,
+        "ZipCode": "10028",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "A8qXfx_LBI6fnOhxDmvIOA",
+        "Name": "Sabor A Mexico",
+        "Address": "1744 1st Ave",
+        "Coordinates": {
+            "lat": 40.77960062777033,
+            "lon": -73.94718089574701
+        },
+        "NumReviews": 170,
+        "Rating": 3.5,
+        "ZipCode": "10128",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "tk5cnLJDAlUmX_ZYBGzw1w",
+        "Name": "Tacos y quesadillas",
+        "Address": "1280 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.77993,
+            "lon": -73.95546
+        },
+        "NumReviews": 23,
+        "Rating": 4.4,
+        "ZipCode": "10028",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "X0X4HOyM_nke0qLLBs-PUw",
+        "Name": "Tepeztate Mexican Restaurant",
+        "Address": "47-12 30th Ave",
+        "Coordinates": {
+            "lat": 40.76094701283518,
+            "lon": -73.90908014906717
+        },
+        "NumReviews": 13,
+        "Rating": 4.6,
+        "ZipCode": "11103",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "clTandR9fDd4OaREI8qTsQ",
+        "Name": "El Tepeyac Taqueria",
+        "Address": "1505 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.78665,
+            "lon": -73.95019
+        },
+        "NumReviews": 39,
+        "Rating": 3.7,
+        "ZipCode": "10029",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "msTXsZGFMWSCMsdf6yIB2Q",
+        "Name": "La Cocina De Mama",
+        "Address": "154E 109th St",
+        "Coordinates": {
+            "lat": 40.793995,
+            "lon": -73.944716
+        },
+        "NumReviews": 35,
+        "Rating": 4.7,
+        "ZipCode": "10029",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "26E3j9l0XW_onVIUP-ThCw",
+        "Name": "Heidi's House By The Side Of The Road",
+        "Address": "308 E 78th St",
+        "Coordinates": {
+            "lat": 40.772189,
+            "lon": -73.955029
+        },
+        "NumReviews": 684,
+        "Rating": 4.4,
+        "ZipCode": "10075",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "C3N8N3_ja6F_HsBE3r2bAg",
+        "Name": "Tacos Y Quesadillas",
+        "Address": "299 E 69th St",
+        "Coordinates": {
+            "lat": 40.766867,
+            "lon": -73.959839
+        },
+        "NumReviews": 15,
+        "Rating": 4.9,
+        "ZipCode": "10021",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "7ERwg_4Kiaq1ezKTSSv7pg",
+        "Name": "Taqueria 86",
+        "Address": "210 W 94th St",
+        "Coordinates": {
+            "lat": 40.793,
+            "lon": -73.97214
+        },
+        "NumReviews": 147,
+        "Rating": 4.5,
+        "ZipCode": "10025",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "YFL1rAdlv7J0cswHVhvCtQ",
+        "Name": "Ruta Oaxaca Mexican Cuisine",
+        "Address": "35-03 Broadway",
+        "Coordinates": {
+            "lat": 40.76058,
+            "lon": -73.92182
+        },
+        "NumReviews": 329,
+        "Rating": 4.5,
+        "ZipCode": "11106",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "vwPTqxzu6mzBxDP_f9nosQ",
+        "Name": "Ayy Chihuahua",
+        "Address": "36-16 Ditmars Blvd",
+        "Coordinates": {
+            "lat": 40.77383,
+            "lon": -73.90789
+        },
+        "NumReviews": 64,
+        "Rating": 4.5,
+        "ZipCode": "11105",
+        "Cuisine": "Mexican",
+        "InsertedAtTimestamp": "2025-02-24 00:51:09.536773"
+    },
+    {
+        "BusinessID": "EM0JnhfXWwr_Nqw4_AjWAA",
+        "Name": "L\u2019incontro",
+        "Address": "1572 2nd Ave",
+        "Coordinates": {
+            "lat": 40.774974,
+            "lon": -73.953619
+        },
+        "NumReviews": 58,
+        "Rating": 4.5,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "OAqsZMbjv66nOMqlimnYuQ",
+        "Name": "Uva",
+        "Address": "1486 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77219299003591,
+            "lon": -73.95561517222123
+        },
+        "NumReviews": 2870,
+        "Rating": 4.0,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "zYaYXpmlo6QdnaPwuxWHhQ",
+        "Name": "L'Osteria",
+        "Address": "1219 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.77704,
+            "lon": -73.95721
+        },
+        "NumReviews": 67,
+        "Rating": 4.6,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "jT_MoIPo-zcg0YuPKO45eA",
+        "Name": "Water & Wheat",
+        "Address": "1379 3rd Ave",
+        "Coordinates": {
+            "lat": 40.77388467411683,
+            "lon": -73.95761864788513
+        },
+        "NumReviews": 95,
+        "Rating": 4.7,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "riykDqJw_NPGssLgqCeD-Q",
+        "Name": "Aunt Jake's",
+        "Address": "1555 2nd Ave",
+        "Coordinates": {
+            "lat": 40.774587,
+            "lon": -73.954513
+        },
+        "NumReviews": 330,
+        "Rating": 4.4,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "d5ya04K-2A_hI3Xzqe1HeA",
+        "Name": "Caffe Buon Gusto",
+        "Address": "236 E 77th St",
+        "Coordinates": {
+            "lat": 40.77249,
+            "lon": -73.95713
+        },
+        "NumReviews": 750,
+        "Rating": 3.9,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.188437"
+    },
+    {
+        "BusinessID": "JBthOvTegHbrLDiVaCAy5Q",
+        "Name": "Bigoi Venezia",
+        "Address": "1415 2nd Ave",
+        "Coordinates": {
+            "lat": 40.770036,
+            "lon": -73.9577755
+        },
+        "NumReviews": 398,
+        "Rating": 4.6,
+        "ZipCode": "10021",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "4eGCuMwKRCCrYHOobEsFpA",
+        "Name": "Lusardi's",
+        "Address": "1494 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7724199,
+            "lon": -73.9555
+        },
+        "NumReviews": 297,
+        "Rating": 4.3,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "VmdyRRMtUXOWV7F7w0ImwQ",
+        "Name": "Piccola Cucina Uptown",
+        "Address": "106 E 60th St",
+        "Coordinates": {
+            "lat": 40.763174,
+            "lon": -73.969046
+        },
+        "NumReviews": 533,
+        "Rating": 4.4,
+        "ZipCode": "10022",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "fyC2cBsQ0FsMJmv0jSworg",
+        "Name": "Donna Margherita",
+        "Address": "1304 2nd Ave",
+        "Coordinates": {
+            "lat": 40.76652,
+            "lon": -73.9598
+        },
+        "NumReviews": 239,
+        "Rating": 4.5,
+        "ZipCode": "10065",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "MPblH3J1kpbNGL4C4U7RAQ",
+        "Name": "IL Carino Restaurant",
+        "Address": "1710 2nd Ave",
+        "Coordinates": {
+            "lat": 40.779485,
+            "lon": -73.950221
+        },
+        "NumReviews": 157,
+        "Rating": 4.0,
+        "ZipCode": "10128",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "-UvkD-dQiefHRl1SNOJywA",
+        "Name": "La Pecora Bianca UES",
+        "Address": "1562 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77477802702051,
+            "lon": -73.95379483409555
+        },
+        "NumReviews": 97,
+        "Rating": 3.9,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "pZlO3WVDYEzl3TNVUkCjTQ",
+        "Name": "Amarena",
+        "Address": "151 E 82nd St",
+        "Coordinates": {
+            "lat": 40.77683614750004,
+            "lon": -73.95698305153783
+        },
+        "NumReviews": 28,
+        "Rating": 3.9,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "eCuAbPGPcP3nASFDBeqyRA",
+        "Name": "da Adriano",
+        "Address": "1198 1st Ave",
+        "Coordinates": {
+            "lat": 40.763146,
+            "lon": -73.959141
+        },
+        "NumReviews": 58,
+        "Rating": 4.5,
+        "ZipCode": "10065",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "5pRxCYQppSq0czjFDN9X3Q",
+        "Name": "Campagnola Restaurant",
+        "Address": "1382 1st Ave",
+        "Coordinates": {
+            "lat": 40.768817,
+            "lon": -73.954833
+        },
+        "NumReviews": 359,
+        "Rating": 3.9,
+        "ZipCode": "10021",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "l7OsDvMOO3ji3fg0nT0QzA",
+        "Name": "Tony's Di Napoli",
+        "Address": "1081 3rd Ave",
+        "Coordinates": {
+            "lat": 40.7643855741476,
+            "lon": -73.96426247506157
+        },
+        "NumReviews": 938,
+        "Rating": 4.1,
+        "ZipCode": "10065",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "SbjbIDBB9JQJBvG5InsGwg",
+        "Name": "Masseria East",
+        "Address": "1404 3rd Ave",
+        "Coordinates": {
+            "lat": 40.774874,
+            "lon": -73.95722
+        },
+        "NumReviews": 33,
+        "Rating": 3.9,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "JliAIBARXi9uISzNG26DVw",
+        "Name": "Elio's",
+        "Address": "1621 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7767632368091,
+            "lon": -73.9526632086427
+        },
+        "NumReviews": 345,
+        "Rating": 3.6,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "I0N_QtJy7sLiuW_vmvRIhg",
+        "Name": "Maruzzella",
+        "Address": "1483 1st Ave",
+        "Coordinates": {
+            "lat": 40.77135,
+            "lon": -73.95379
+        },
+        "NumReviews": 156,
+        "Rating": 4.1,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "ezu7Ai6ADfHDYCklvuipWA",
+        "Name": "Arturo's",
+        "Address": "1617 York Ave",
+        "Coordinates": {
+            "lat": 40.775478,
+            "lon": -73.947847
+        },
+        "NumReviews": 115,
+        "Rating": 4.2,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "kzd10IXi3dTjoPw0TDj8tA",
+        "Name": "Osteria Nando",
+        "Address": "1589 2nd Ave",
+        "Coordinates": {
+            "lat": 40.775666,
+            "lon": -73.953649
+        },
+        "NumReviews": 239,
+        "Rating": 4.2,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "fFIQ8Rx4x1Z34kFJcmlVzQ",
+        "Name": "Cacio e Pepe",
+        "Address": "1479 York Ave",
+        "Coordinates": {
+            "lat": 40.77090864674996,
+            "lon": -73.95098168604862
+        },
+        "NumReviews": 102,
+        "Rating": 4.4,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "CygcAgexrpJGY8iWp7QqnA",
+        "Name": "Antonucci Cafe",
+        "Address": "170 E 81st St",
+        "Coordinates": {
+            "lat": 40.77574,
+            "lon": -73.95689
+        },
+        "NumReviews": 207,
+        "Rating": 3.9,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "FpgzHQMSNTTjagrKXxOw5A",
+        "Name": "San Matteo Pizzeria e Cucina",
+        "Address": "1559 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77468412081752,
+            "lon": -73.9544499193399
+        },
+        "NumReviews": 443,
+        "Rating": 3.7,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "9T8Ootw4aqmaO42gI-wBSA",
+        "Name": "Botte UES",
+        "Address": "1606 1st Ave",
+        "Coordinates": {
+            "lat": 40.775079766410514,
+            "lon": -73.95047928303218
+        },
+        "NumReviews": 169,
+        "Rating": 4.2,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "26E3j9l0XW_onVIUP-ThCw",
+        "Name": "Heidi's House By The Side Of The Road",
+        "Address": "308 E 78th St",
+        "Coordinates": {
+            "lat": 40.772189,
+            "lon": -73.955029
+        },
+        "NumReviews": 684,
+        "Rating": 4.4,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "H0L6Uj4yByrNjeXD8ByoYg",
+        "Name": "La Voglia",
+        "Address": "1645 3rd Ave",
+        "Coordinates": {
+            "lat": 40.782687172752816,
+            "lon": -73.9508638
+        },
+        "NumReviews": 85,
+        "Rating": 4.0,
+        "ZipCode": "10128",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "u_bN9Tai2jF1lSY_zQwqnQ",
+        "Name": "Fumo - Upper East Side",
+        "Address": "1626 2nd Ave",
+        "Coordinates": {
+            "lat": 40.776618,
+            "lon": -73.95233
+        },
+        "NumReviews": 120,
+        "Rating": 3.8,
+        "ZipCode": "10028",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "gu1gF8uZ_KvTzrL67hwH3g",
+        "Name": "Enzo Bruni La Pizza Gourmet",
+        "Address": "1827 2nd Ave",
+        "Coordinates": {
+            "lat": 40.783433,
+            "lon": -73.947932
+        },
+        "NumReviews": 153,
+        "Rating": 4.3,
+        "ZipCode": "10128",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "oEjWa3AETzPQfM3S1wRiLA",
+        "Name": "Due",
+        "Address": "1396 3rd Ave",
+        "Coordinates": {
+            "lat": 40.77466,
+            "lon": -73.95724
+        },
+        "NumReviews": 104,
+        "Rating": 3.8,
+        "ZipCode": "10075",
+        "Cuisine": "Italian",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.189438"
+    },
+    {
+        "BusinessID": "ASf5l4u-eMhBgNbPy5HLOQ",
+        "Name": "Tha Phraya",
+        "Address": "1553 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77454178196952,
+            "lon": -73.95451304440785
+        },
+        "NumReviews": 105,
+        "Rating": 4.6,
+        "ZipCode": "10028",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "-OixbLnFLCzQclxCSbUQ8w",
+        "Name": "Up Thai",
+        "Address": "1411 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7698275926665,
+            "lon": -73.9576330868512
+        },
+        "NumReviews": 3292,
+        "Rating": 4.4,
+        "ZipCode": "10021",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "O1fUmxt3kbV-rnyjBtzAfw",
+        "Name": "THEP Thai Restaurant",
+        "Address": "1439 2nd Ave",
+        "Coordinates": {
+            "lat": 40.77078,
+            "lon": -73.95727
+        },
+        "NumReviews": 3291,
+        "Rating": 4.5,
+        "ZipCode": "10021",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "-Q8MYIWoE4EsGQtudIOY0w",
+        "Name": "Bua Thai Ramen & Robata Grill",
+        "Address": "1611 2nd Ave",
+        "Coordinates": {
+            "lat": 40.7763615,
+            "lon": -73.95308
+        },
+        "NumReviews": 3241,
+        "Rating": 4.5,
+        "ZipCode": "10028",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "HnTcWZbZJzNAYO8YseQlSQ",
+        "Name": "Zabb PuTawn",
+        "Address": "1584 First Av",
+        "Coordinates": {
+            "lat": 40.77446,
+            "lon": -73.95077
+        },
+        "NumReviews": 342,
+        "Rating": 4.4,
+        "ZipCode": "10028",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "bivrss06gT7E37A0RnnkTw",
+        "Name": "Bangrak - Thai Restaurant",
+        "Address": "1750 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78116,
+            "lon": -73.94913
+        },
+        "NumReviews": 89,
+        "Rating": 4.5,
+        "ZipCode": "10128",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "VJyqoK4a57CH1jQtihTt3Q",
+        "Name": "LENOXTHAI",
+        "Address": "1217 1st Ave",
+        "Coordinates": {
+            "lat": 40.76384,
+            "lon": -73.95911
+        },
+        "NumReviews": 63,
+        "Rating": 4.7,
+        "ZipCode": "10065",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "pvxX-nvg3o-eZDlvrtYhQQ",
+        "Name": "Spice Thai",
+        "Address": "1479 1st Ave",
+        "Coordinates": {
+            "lat": 40.771212,
+            "lon": -73.953786
+        },
+        "NumReviews": 41,
+        "Rating": 4.0,
+        "ZipCode": "10075",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.750392"
+    },
+    {
+        "BusinessID": "uVoFnGvcwk2wSNwATtuf8g",
+        "Name": "Thai Hot Box",
+        "Address": "1598 3rd Ave",
+        "Coordinates": {
+            "lat": 40.78123,
+            "lon": -73.95246
+        },
+        "NumReviews": 140,
+        "Rating": 4.4,
+        "ZipCode": "10128",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "K-X7ZuBuWoW7beVG8viFZg",
+        "Name": "Koo Thai",
+        "Address": "1758 1st Ave",
+        "Coordinates": {
+            "lat": 40.78013496548437,
+            "lon": -73.9466592
+        },
+        "NumReviews": 44,
+        "Rating": 4.4,
+        "ZipCode": "10128",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "jg5nc64wLYKwKAvz_lfMuA",
+        "Name": "Thai At Lex",
+        "Address": "1244 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.778142,
+            "lon": -73.956807
+        },
+        "NumReviews": 285,
+        "Rating": 3.7,
+        "ZipCode": "10028",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "kZ5q8Uwxt3MpLcvxEdPeFg",
+        "Name": "Marwin Thai Restaurant",
+        "Address": "1132 1st Ave",
+        "Coordinates": {
+            "lat": 40.76158,
+            "lon": -73.96032
+        },
+        "NumReviews": 158,
+        "Rating": 4.6,
+        "ZipCode": "10065",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "M-QVdyff9TPobqVYw4H_qw",
+        "Name": "Grata Thai Cuisine",
+        "Address": "1099 1st Ave",
+        "Coordinates": {
+            "lat": 40.760509,
+            "lon": -73.961668
+        },
+        "NumReviews": 34,
+        "Rating": 4.4,
+        "ZipCode": "10065",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "HgEwORU1LJyrFVE_ll_pDg",
+        "Name": "KAM RAI THAI",
+        "Address": "43-11 28th Ave",
+        "Coordinates": {
+            "lat": 40.76433,
+            "lon": -73.91072
+        },
+        "NumReviews": 237,
+        "Rating": 4.6,
+        "ZipCode": "11103",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "VoAuIReq_cPUrFwxbWqG_Q",
+        "Name": "Sala Thai Restaurant",
+        "Address": "307 Amsterdam Ave",
+        "Coordinates": {
+            "lat": 40.780049,
+            "lon": -73.980209
+        },
+        "NumReviews": 1012,
+        "Rating": 4.4,
+        "ZipCode": "10023",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "a-Bq_yXFVk2PptoWpmry3w",
+        "Name": "Pye Boat Noodle",
+        "Address": "35-13 Broadway",
+        "Coordinates": {
+            "lat": 40.760366832341425,
+            "lon": -73.92164019718223
+        },
+        "NumReviews": 1115,
+        "Rating": 4.3,
+        "ZipCode": "11106",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "a23bfZBVjIhV32Em4hKHAA",
+        "Name": "The Buffs",
+        "Address": "1313 40th Ave",
+        "Coordinates": {
+            "lat": 40.7554904,
+            "lon": -73.94131574785041
+        },
+        "NumReviews": 247,
+        "Rating": 4.5,
+        "ZipCode": "11101",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "oowNI_aUmGEFa_VW8BFgRg",
+        "Name": "Tri Dim Shanghai",
+        "Address": "1378 3rd Ave",
+        "Coordinates": {
+            "lat": 40.773951,
+            "lon": -73.957927
+        },
+        "NumReviews": 587,
+        "Rating": 4.0,
+        "ZipCode": "10075",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "SkD3MrsLIT1Wq-7eTIE-mQ",
+        "Name": "Ros Niyom Thai Restaurant",
+        "Address": "10-91 Jackson Ave",
+        "Coordinates": {
+            "lat": 40.7432122,
+            "lon": -73.951706
+        },
+        "NumReviews": 65,
+        "Rating": 4.3,
+        "ZipCode": "11101",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "QXgp1Ac10x6yDAPWFIxnbA",
+        "Name": "Charoen Krung Thai",
+        "Address": "955 2nd Ave",
+        "Coordinates": {
+            "lat": 40.755354,
+            "lon": -73.968495
+        },
+        "NumReviews": 311,
+        "Rating": 4.7,
+        "ZipCode": "10022",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "jfnDwWBGK4JoWE5jbeKxSw",
+        "Name": "Chu Ros Thai",
+        "Address": "1590 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.78922,
+            "lon": -73.94873
+        },
+        "NumReviews": 237,
+        "Rating": 4.5,
+        "ZipCode": "10029",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "tVB11pOiDhPWlt_o6ylMNg",
+        "Name": "Enthaice Thai Kitchen",
+        "Address": "33-20 31st Ave",
+        "Coordinates": {
+            "lat": 40.7630889337809,
+            "lon": -73.9213237166405
+        },
+        "NumReviews": 795,
+        "Rating": 4.2,
+        "ZipCode": "11106",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "CpY77cDN1KS5EdiXMmWovw",
+        "Name": "House of Thai",
+        "Address": "2501 40th Ave",
+        "Coordinates": {
+            "lat": 40.7535257695712,
+            "lon": -73.9377629319284
+        },
+        "NumReviews": 369,
+        "Rating": 3.9,
+        "ZipCode": "11101",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "s-UAKra4P0sFE9ylXlwwfA",
+        "Name": "Le Viet Cafe",
+        "Address": "1750 2nd Ave",
+        "Coordinates": {
+            "lat": 40.78116,
+            "lon": -73.94913
+        },
+        "NumReviews": 168,
+        "Rating": 3.8,
+        "ZipCode": "10128",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "dpo_TBvuRi2nEzuVdO4AiQ",
+        "Name": "Mitr Thai",
+        "Address": "37 W 46th St",
+        "Coordinates": {
+            "lat": 40.75688959835714,
+            "lon": -73.9804147
+        },
+        "NumReviews": 650,
+        "Rating": 4.6,
+        "ZipCode": "10036",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "f7jZvRH-h76F4emzvKytaQ",
+        "Name": "Tuk Tuk",
+        "Address": "4906 Vernon Blvd",
+        "Coordinates": {
+            "lat": 40.743196797758685,
+            "lon": -73.95410626286748
+        },
+        "NumReviews": 809,
+        "Rating": 4.0,
+        "ZipCode": "11101",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "5HQGOq8NA9Pe5kNhVA4hMA",
+        "Name": "Plue",
+        "Address": "1575 Lexington Ave",
+        "Coordinates": {
+            "lat": 40.788825,
+            "lon": -73.948474
+        },
+        "NumReviews": 70,
+        "Rating": 4.6,
+        "ZipCode": "10029",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "B3_K2kUVbYOU0VaLcj_LTw",
+        "Name": "Thai Villa",
+        "Address": "5 E 19th St",
+        "Coordinates": {
+            "lat": 40.73902,
+            "lon": -73.99065
+        },
+        "NumReviews": 5155,
+        "Rating": 4.4,
+        "ZipCode": "10003",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "LVGDm8ZYSzYom7SYsjgXfQ",
+        "Name": "SaiTong Thai",
+        "Address": "244 W 48th St",
+        "Coordinates": {
+            "lat": 40.76069087692317,
+            "lon": -73.9865615
+        },
+        "NumReviews": 270,
+        "Rating": 4.7,
+        "ZipCode": "10036",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    },
+    {
+        "BusinessID": "toykv8K0yg8qtvZSXRQ5bg",
+        "Name": "Pochana Thai Kitchen",
+        "Address": "33-16 30th Ave",
+        "Coordinates": {
+            "lat": 40.765733,
+            "lon": -73.91932
+        },
+        "NumReviews": 321,
+        "Rating": 3.9,
+        "ZipCode": "11103",
+        "Cuisine": "Thai",
+        "InsertedAtTimestamp": "2025-02-24 00:51:10.751447"
+    }
+]
