@@ -32,12 +32,19 @@ def fetch_sqs_message():
         WaitTimeSeconds=10
     )
 
+    print("SQS Response:", response)  # Debugging Line
+
     if "Messages" not in response:
         return None
 
     message = response["Messages"][0]
     receipt_handle = message["ReceiptHandle"]
-    body = json.loads(message["Body"])
+
+    try:
+        body = json.loads(message["Body"])
+    except json.JSONDecodeError as e:
+        print("Error decoding SQS message body:", message["Body"], e)
+        return None
 
     return body, receipt_handle
 
@@ -61,7 +68,12 @@ def fetch_restaurant_from_es(cuisine):
     }
 
     response = http.request("GET", es_url, body=json.dumps(query), headers=headers)
-    result = json.loads(response.data.decode("utf-8"))
+
+    try:
+        result = json.loads(response.data.decode("utf-8"))
+    except json.JSONDecodeError as e:
+        print("Error parsing OpenSearch response:", e)
+        return None
 
     if result["hits"]["hits"]:
         return result["hits"]["hits"][0]["_source"]["RestaurantID"]
@@ -73,17 +85,22 @@ def fetch_restaurant_from_dynamo(business_id):
     table = dynamodb.Table(DYNAMO_TABLE_NAME)
 
     response = table.get_item(Key={"BusinessID": business_id})
+    print("DynamoDB Response:", response)  # Debugging Line
+
+    if "Item" not in response:
+        print(f"No item found in DynamoDB for BusinessID: {business_id}")
+        return None
 
     return response.get("Item", None)
 
 
-def send_email(to_email, restaurant):
+def send_email(to_email, restaurant, cuisine):
     """ Sends an email with the restaurant recommendation """
-    subject = "Your Restaurant Recommendation"
+    subject = f"Your {cuisine} Restaurant Recommendation"
 
     body_text = f"""Hello,
 
-    We found a great restaurant for you!
+    We found a great {cuisine} restaurant for you!
 
     Name: {restaurant["Name"]}
     Address: {restaurant["Address"]}
@@ -94,45 +111,54 @@ def send_email(to_email, restaurant):
     Enjoy your meal!
     """
 
-    response = ses.send_email(
-        Source=SENDER_EMAIL,
-        Destination={"ToAddresses": [to_email]},
-        Message={
-            "Subject": {"Data": subject},
-            "Body": {"Text": {"Data": body_text}}
-        }
-    )
+    try:
+        response = ses.send_email(
+            Source=SENDER_EMAIL,
+            Destination={"ToAddresses": [to_email]},
+            Message={
+                "Subject": {"Data": subject},
+                "Body": {"Text": {"Data": body_text}}
+            }
+        )
+        print("SES Email Response:", response)  # Debugging Line
+    except Exception as e:
+        print("Error sending email:", e)
+        return None
 
     return response
 
 
 def lambda_handler(event, context):
     """ Main Lambda function """
-    # Fetch SQS message
-    sqs_message, receipt_handle = fetch_sqs_message()
-    if not sqs_message:
-        print("No messages in the queue")
-        return
+    try:
+        # Fetch SQS message
+        sqs_message, receipt_handle = fetch_sqs_message()
+        if not sqs_message:
+            print("No messages in the queue")
+            return
 
-    cuisine = sqs_message["Cuisine"]
-    email = sqs_message["Email"]
+        cuisine = sqs_message["Cuisine"]
+        email = sqs_message["Email"]
 
-    # Get restaurant recommendation
-    business_id = fetch_restaurant_from_es(cuisine)
-    if not business_id:
-        print("No restaurant found for cuisine:", cuisine)
-        return
+        # Get restaurant recommendation
+        business_id = fetch_restaurant_from_es(cuisine)
+        if not business_id:
+            print("No restaurant found for cuisine:", cuisine)
+            return
 
-    # Get full details from DynamoDB
-    restaurant = fetch_restaurant_from_dynamo(business_id)
-    if not restaurant:
-        print("No details found in DynamoDB for BusinessID:", business_id)
-        return
+        # Get full details from DynamoDB
+        restaurant = fetch_restaurant_from_dynamo(business_id)
+        if not restaurant:
+            print("No details found in DynamoDB for BusinessID:", business_id)
+            return
 
-    # Send Email
-    send_email(email, restaurant)
+        # Send Email
+        send_email(email, restaurant, cuisine)
 
-    # Delete processed SQS message
-    sqs.delete_message(QueueUrl=SQS_URL, ReceiptHandle=receipt_handle)
+        # Delete processed SQS message
+        sqs.delete_message(QueueUrl=SQS_URL, ReceiptHandle=receipt_handle)
 
-    return {"status": "Email sent successfully"}
+        return {"status": "Email sent successfully"}
+    except Exception as e:
+        print(f"Lambda function error: {str(e)}")
+        return {"status": "Internal Server Error"}

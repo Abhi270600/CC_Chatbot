@@ -49,7 +49,7 @@ def lambda_handler(event, context):
         formatted_response = {
             "messages": [
                 {
-                    "type": "string",
+                    "type": "unstructured",
                     "unstructured": {
                         "id": user_id,
                         "text": lex_response_message,
@@ -61,7 +61,11 @@ def lambda_handler(event, context):
 
         return {
             "statusCode": 200,
-            "body": json.dumps(formatted_response)
+            "body": json.dumps(formatted_response),
+            "headers": {
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*"
+            }
         }
 
     except Exception as e:

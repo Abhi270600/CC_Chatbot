@@ -119,6 +119,7 @@ def lambda_handler(event, context):
 
         print(validation_result)
         print(event['invocationSource'])
+        print(event['sessionState']['intent']['slots'])
 
         if event['invocationSource'] == 'DialogCodeHook':
 
