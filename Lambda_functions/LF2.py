@@ -49,8 +49,8 @@ def fetch_sqs_message():
     return body, receipt_handle
 
 
-def fetch_restaurant_from_es(cuisine):
-    """ Queries OpenSearch for a random restaurant recommendation """
+def fetch_restaurants_from_es(cuisine):
+    """ Queries OpenSearch for 3 random restaurant recommendations """
     es_url = f"{OPENSEARCH_ENDPOINT}/restaurants/_search"
     headers = {
         "Content-Type": "application/json",
@@ -64,7 +64,7 @@ def fetch_restaurant_from_es(cuisine):
                 "random_score": {}
             }
         },
-        "size": 1
+        "size": 3  # Fetch 3 restaurants instead of 1
     }
 
     response = http.request("GET", es_url, body=json.dumps(query), headers=headers)
@@ -76,7 +76,7 @@ def fetch_restaurant_from_es(cuisine):
         return None
 
     if result["hits"]["hits"]:
-        return result["hits"]["hits"][0]["_source"]["RestaurantID"]
+        return [hit["_source"]["RestaurantID"] for hit in result["hits"]["hits"]]
     return None
 
 
@@ -94,20 +94,28 @@ def fetch_restaurant_from_dynamo(business_id):
     return response.get("Item", None)
 
 
-def send_email(to_email, restaurant, cuisine):
-    """ Sends an email with the restaurant recommendation """
-    subject = f"Your {cuisine} Restaurant Recommendation"
+def send_email(to_email, restaurants, cuisine):
+    """ Sends an email with the restaurant recommendations """
+    subject = f"Your {cuisine} Restaurant Recommendations"
 
     body_text = f"""Hello,
 
-    We found a great {cuisine} restaurant for you!
+    We found some great {cuisine} restaurants for you!
 
+    """
+
+    for i, restaurant in enumerate(restaurants, 1):
+        body_text += f"""
+    Recommendation {i}:
     Name: {restaurant["Name"]}
     Address: {restaurant["Address"]}
     Rating: {restaurant["Rating"]}
     Reviews: {restaurant["NumReviews"]}
     Zip Code: {restaurant["ZipCode"]}
 
+    """
+
+    body_text += """
     Enjoy your meal!
     """
 
@@ -140,20 +148,25 @@ def lambda_handler(event, context):
         cuisine = sqs_message["Cuisine"]
         email = sqs_message["Email"]
 
-        # Get restaurant recommendation
-        business_id = fetch_restaurant_from_es(cuisine)
-        if not business_id:
-            print("No restaurant found for cuisine:", cuisine)
+        # Get 3 restaurant recommendations
+        business_ids = fetch_restaurants_from_es(cuisine)
+        if not business_ids:
+            print("No restaurants found for cuisine:", cuisine)
             return
 
-        # Get full details from DynamoDB
-        restaurant = fetch_restaurant_from_dynamo(business_id)
-        if not restaurant:
-            print("No details found in DynamoDB for BusinessID:", business_id)
+        # Get full details from DynamoDB for each restaurant
+        restaurants = []
+        for business_id in business_ids:
+            restaurant = fetch_restaurant_from_dynamo(business_id)
+            if restaurant:
+                restaurants.append(restaurant)
+
+        if not restaurants:
+            print("No details found in DynamoDB for BusinessIDs:", business_ids)
             return
 
-        # Send Email
-        send_email(email, restaurant, cuisine)
+        # Send Email with all 3 recommendations
+        send_email(email, restaurants, cuisine)
 
         # Delete processed SQS message
         sqs.delete_message(QueueUrl=SQS_URL, ReceiptHandle=receipt_handle)
