@@ -3,6 +3,7 @@ import json
 import urllib3
 import base64
 import os
+from boto3.dynamodb.conditions import Attr
 
 # AWS Services Clients
 sqs = boto3.client("sqs")
@@ -12,6 +13,7 @@ ses = boto3.client("ses")
 # Constants
 SQS_URL = "https://sqs.us-east-1.amazonaws.com/861276083927/DiningSuggestionsQueue"
 DYNAMO_TABLE_NAME = "yelp-restaurants"
+DYNAMO_TABLE_NAME_USER_SEARCHES = "UserSearchState"
 OPENSEARCH_ENDPOINT = "https://search-restaurants-tbwuejrkt6sp4kuw5oys5dvv5e.aos.us-east-1.on.aws"
 ES_USERNAME = "aa12037"
 ES_PASSWORD = "Abhikeer@123"
@@ -94,6 +96,34 @@ def fetch_restaurant_from_dynamo(business_id):
     return response.get("Item", None)
 
 
+def update_user_state(session_id, restaurant_ids):
+    # Update the UserSearchState DynamoDB table with the restaurant IDs for the given session
+    table = dynamodb.Table('UserSearchState')
+
+    # Update the item with the new restaurant ids
+    table.update_item(
+        Key={'UserId': session_id},
+        UpdateExpression="SET RestaurantIDs = :ids",
+        ExpressionAttributeValues={
+            ':ids': restaurant_ids
+        }
+    )
+
+
+def check_dynamo(cuisine, session_id):
+    """ Fetch full restaurant details from DynamoDB new table"""
+    table = dynamodb.Table(DYNAMO_TABLE_NAME_USER_SEARCHES)
+
+    response = table.get_item(Key={"UserId": session_id})
+    print("DynamoDB Response:", response)  # Debugging Line
+
+    if "Item" not in response:
+        print(f"No item found in UserStateSearch DynamoDB")
+        return None
+
+    return response.get("Item", None)
+
+
 def send_email(to_email, restaurants, cuisine):
     """ Sends an email with the restaurant recommendations """
     subject = f"Your {cuisine} Restaurant Recommendations"
@@ -145,14 +175,25 @@ def lambda_handler(event, context):
             print("No messages in the queue")
             return
 
+        print("SQS Message:", sqs_message)  # Debugging Line
+        session_id = sqs_message["SessionID"]
+        print("Session ID:", session_id)  # Debugging Line
+
         cuisine = sqs_message["Cuisine"]
         email = sqs_message["Email"]
 
         # Get 3 restaurant recommendations
-        business_ids = fetch_restaurants_from_es(cuisine)
-        if not business_ids:
-            print("No restaurants found for cuisine:", cuisine)
-            return
+
+        if sqs_message["State"] == "old":
+            old_restaurants = check_dynamo(cuisine, session_id)
+            print("Old Restaurants:", old_restaurants)  # Debugging Line
+            business_ids = old_restaurants["RestaurantIDs"]
+
+        else:
+            business_ids = fetch_restaurants_from_es(cuisine)
+            if not business_ids:
+                print("No restaurants found for cuisine:", cuisine)
+                return
 
         # Get full details from DynamoDB for each restaurant
         restaurants = []
@@ -161,8 +202,10 @@ def lambda_handler(event, context):
             if restaurant:
                 restaurants.append(restaurant)
 
+        update_user_state(session_id, business_ids)
+
         if not restaurants:
-            print("No details found in DynamoDB for BusinessIDs:", business_ids)
+            print("No details found in DynamoDB")
             return
 
         # Send Email with all 3 recommendations
