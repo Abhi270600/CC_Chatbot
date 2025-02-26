@@ -5,9 +5,9 @@ import boto3, datetime
 lex_client = boto3.client('lexv2-runtime', region_name='us-east-1')
 
 # Replace with your actual bot ID and alias ID
-BOT_ID = "THH2GHPMGX"
-BOT_ALIAS_ID = "TSTALIASID"
-LOCALE_ID = "en_US"  # Change if using a different language
+BOT_ID = "<BOT_ID>"
+BOT_ALIAS_ID = "<BOT_ALIAS_ID>"
+LOCALE_ID = "<LOCALE_ID>"  # Change if using a different language
 
 def lambda_handler(event, context):
     try:

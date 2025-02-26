@@ -6,9 +6,9 @@ import random
 import base64
 
 # OpenSearch Configuration
-OPENSEARCH_ENDPOINT = "https://search-restaurants-tbwuejrkt6sp4kuw5oys5dvv5e.aos.us-east-1.on.aws"
-ES_USERNAME = "aa12037"  # Change if using IAM Role
-ES_PASSWORD = "Abhikeer@123"
+OPENSEARCH_ENDPOINT = "<OPENSEARCH_ENDPOINT>"
+ES_USERNAME = "<ES_USERNAME>"  # Change if using IAM Role
+ES_PASSWORD = "<ES_PASSWORD>"
 INDEX_NAME = "restaurants"
 
 # DynamoDB Configuration

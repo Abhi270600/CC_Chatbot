@@ -11,13 +11,13 @@ dynamodb = boto3.resource("dynamodb", region_name="us-east-1")
 ses = boto3.client("ses")
 
 # Constants
-SQS_URL = "https://sqs.us-east-1.amazonaws.com/861276083927/DiningSuggestionsQueue"
+SQS_URL = "<SQS_URL>"
 DYNAMO_TABLE_NAME = "yelp-restaurants"
 DYNAMO_TABLE_NAME_USER_SEARCHES = "UserSearchState"
-OPENSEARCH_ENDPOINT = "https://search-restaurants-tbwuejrkt6sp4kuw5oys5dvv5e.aos.us-east-1.on.aws"
-ES_USERNAME = "aa12037"
-ES_PASSWORD = "Abhikeer@123"
-SENDER_EMAIL = "abhi27.personal@gmail.com"
+OPENSEARCH_ENDPOINT = "<OPENSEARCH_ENDPOINT>"
+ES_USERNAME = "<ES_USERNAME>"
+ES_PASSWORD = "<ES_PASSWORD>"
+SENDER_EMAIL = "<SENDER_EMAIL>"
 
 # Initialize HTTP Manager
 http = urllib3.PoolManager()

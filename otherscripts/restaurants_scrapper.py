@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Yelp API Key (Replace with your actual key)
-API_KEY = "xYn4RROvePdRTeNgNKy9oDh-al6LOpn7zZkwnqxg0p-1DFIuIVmnA-HuFfZBIul0uPn-cYOn-nGAmgL25qY95CwHeCBg37HmrG401E5guu_qXmA5in2UQfvpdx2tZ3Yx"
+API_KEY = "<API_KEY>"
 
 # Yelp API Headers
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}

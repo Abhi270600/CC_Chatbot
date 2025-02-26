@@ -9,7 +9,7 @@ sqs = boto3.client('sqs', region_name='us-east-1')
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
 # Replace with your actual SQS queue URL and DynamoDB table name
-SQS_QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/861276083927/DiningSuggestionsQueue"
+SQS_QUEUE_URL = "<SQS_QUEUE_URL>"
 DYNAMO_TABLE_NAME = "UserSearchState"
 denied_state = False
 
