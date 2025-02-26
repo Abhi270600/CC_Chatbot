@@ -99,15 +99,6 @@ def get_last_search(user_id):
         return None
 
 
-def delete_last_search(user_id):
-    """Delete the user's last search from DynamoDB."""
-    try:
-        user_state_table.delete_item(Key={'UserId': user_id})
-        print(f"Deleted user state for user_id: {user_id}")
-    except Exception as e:
-        print(f"Error deleting user state: {e}")
-
-
 def push_to_sqs(user_id, location, cuisine, dining_time, num_people, email, state):
     """Send the user's search details to SQS."""
     message = {
