@@ -200,7 +200,7 @@ def lambda_handler(event, context):
             },
             'messages': [{
                 'contentType': 'PlainText',
-                'content': "You're welcome!"
+                'content': "You're welcome! Let me know if you need anything else"
             }]
         }
 
