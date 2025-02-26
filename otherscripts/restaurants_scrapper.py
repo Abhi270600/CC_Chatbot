@@ -24,7 +24,7 @@ neighborhoods = [
 ]
 
 def fetch_restaurants(cuisine, total=30):
-    """Fetch up to 1,000 unique restaurants per cuisine from multiple Manhattan neighborhoods."""
+    """Fetch up to 150 unique restaurants per cuisine from multiple Manhattan neighborhoods."""
     url = "https://api.yelp.com/v3/businesses/search"
     unique_restaurants = {}
 
