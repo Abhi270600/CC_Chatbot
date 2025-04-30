@@ -19,6 +19,8 @@ The application leverages several AWS services in a serverless architecture:
 - **SES**: Sends email recommendations to users
 - **CloudWatch/EventBridge**: Triggers the suggestion service periodically
 
+![](screenshots/Arch_diagram.png)
+
 ## Features
 - Interactive chatbot interface that collects dining preferences
 - Restaurant data collection from Yelp API 
