@@ -72,3 +72,5 @@ The application leverages several AWS services in a serverless architecture:
 
 ![](screenshots/flow2.jpeg)
 
+### Demo link
+https://youtu.be/Q8buGbAEH6c
